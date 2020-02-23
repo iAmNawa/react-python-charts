@@ -9,7 +9,7 @@ class Graph extends Component {
   		'Yellow'
   	],
   	datasets: [{
-  		data: [300, 5, 100, 250],
+  		data: [300, 5, 100],
   		backgroundColor: [
   		'#FF6384',
   		'#36A2EB',
