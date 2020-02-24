@@ -1,3 +1,3 @@
-# react-python-words
+# react-python-charts
 
-Application that will give you a word and you add a word to make a compound word.  The application will then return all the words that have been previously given.
+testing charts and graphs with react front-end and python-back end
