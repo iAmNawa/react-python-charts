@@ -42,6 +42,7 @@ class PieChart extends Component {
       })
     }
   }
+  
   render() {
     return (
       <div>

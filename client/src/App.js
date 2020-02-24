@@ -3,12 +3,14 @@ import logo from './logo.svg';
 import './App.css';
 import PieChart from './PieChart';
 import LineChart from './LineChart';
+import BarChart from './BarChart';
 
 function App() {
   return (
     <div className="App">
-      <PieChart />
-      <LineChart />
+      {/*}<PieChart />*/}
+      {/*}<LineChart />*/}
+      <BarChart />
     </div>
   );
 }
