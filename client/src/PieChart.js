@@ -49,7 +49,16 @@ class PieChart extends Component {
         <form onSubmit={this.handleSubmit}>
           <input onChange={this.onChange} name='tempLabel' placeholder='label'></input>
           <input onChange={this.onChange} name='tempDataValue' placeholder='value'></input>
-          <input onChange={this.onChange} name='tempColor' placeholder='color'></input>
+          <select onChange={this.onChange} name='tempColor' placeholder='color'>
+            <option selected disabled>Pick a color</option>
+            <option value="#9f0812">red</option>
+            <option value="#dc380f">orange</option>
+            <option value="#e1ac26">yellow</option>
+            <option value="#79af1e">green</option>
+            <option value="#368dd5">blue</option>
+            <option value="#6347b2">purple</option>
+            <option value="#7e887a">grey</option>
+          </select>
           <input type="submit" value="Submit" />
         </form>
         <Pie data={this.state.data} />
